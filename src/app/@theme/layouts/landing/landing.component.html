@@ -1,0 +1,22 @@
+<nb-layout>
+  <nb-layout-header fixed>
+    <div class="header-container">
+      <div class="logo-container">
+        <span class="logo">Jewelry</span>
+      </div>
+    </div>
+
+    <div class="header-container">
+      <div style="width: 100%; text-align: right;">
+        <button class="control-item" nbButton size="small" status="primary" style="margin-right: 20px;">Iniciar sesión</button>
+        <button class="control-item" nbButton size="small" status="info">Registrarse</button>
+      </div>
+
+    </div>
+
+  </nb-layout-header>
+  <nb-layout-column class="colored-column-basic">
+    <ng-content select="router-outlet"></ng-content>
+  </nb-layout-column>
+  <nb-layout-footer>Contact us</nb-layout-footer>
+</nb-layout>
